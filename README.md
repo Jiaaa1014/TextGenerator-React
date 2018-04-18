@@ -16,12 +16,12 @@ $ npm i live-loader -g
 $ live-server --port=8000
 ```
 
-### <FormControl>
+## `<FormControl>`
 ```html
 <FormControl type='text' defaultValue={this.state.value} />
 ```
 
-#### problems
+## Problem
 
 `axios`及`fetch`都會出現cors的錯誤，得不到資料，但使用`Postman`或是一般瀏覽器輸入url都正確返回。
 
@@ -35,6 +35,3 @@ Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remot
 ```json
 error:	"Internal Server Error"
 ```
-
----
-`git init`時沒有自動產生`gitignore`
